@@ -37,11 +37,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 This is the beginning of using tailwindcss to build responsive pages using flexbox and media queries.The flexbox aprroach of doing things is a little bit different from grids but i want to use flexbox inorder to create vibrant and efficient responsive websites.I was able to identify how flex  , max-width and justify-content go hand in hand when it comes to alignment.Code Snippet that was helpful:
 
 ```html 
- <div class="flex flex-col bg-LightGray justify-center h-screen md:flex-row md:p-20 ">
-    <!--Card-->
-    <div class="mx-10 bg-white rounded-2xl md:m-8">
-      <!--Flex Container-->
-      <div class="flex flex-col p-6 items-center md:max-w-md ">
+<div class="flex flex-none flex-col bg-LightGray justify-center h-screen md:justify-center md:items-center">
+      <!--Card-->
+      <div class="mx-5 bg-white rounded-2xl md:pt-5 ">
+        <!--Flex Container-->
+        <div class="flex flex-none flex-col p-5 justify-center items-center md:justify-center md:items-center   ">
 ```
 ## Author
 
